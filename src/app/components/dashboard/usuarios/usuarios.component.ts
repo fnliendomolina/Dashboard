@@ -37,7 +37,7 @@ export class UsuariosComponent implements OnInit {
 
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+    this.dataSource.sort = this.sort; //fede
   }
 
   ngOnInit(): void {
